@@ -1,6 +1,6 @@
-FROM alpine
+FROM arm32v6/alpine
 
-MAINTAINER Helmuth Breitenfellner <helmuth@breitenfellner.at>
+MAINTAINER Facundo Matias Beron <facundo@beron.at>
 
 VOLUME /backup
 VOLUME /data
